@@ -17,5 +17,4 @@ if response.status_code == 200:
     weather_description = data["sää"][0]["selitys"]
 
     print(f"Sää paikkakunnalla {city} on {weather_description}. Lämpötila on {temp_celsius} astetta Celsius-asteina.")
-else:
-    print("Sään hakeminen epäonnistui. Tarkista API-avain ja paikkakunnan nimi.")
+
